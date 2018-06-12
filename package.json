@@ -29,16 +29,18 @@
     "babel-register": "^6.3.13",
     "chai": "^3.5.0",
     "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^5.0.1",
+    "eslint-config-airbnb": "^5.0.1"
+  },
+  "dependencies": {
     "koa": "^2.0.0-alpha.3",
     "koa-bodyparser": "^3.0.0",
     "koa-logger": "^2.0.0",
     "koa-router": "^7.0.0",
+    "koa-static": "^4.0.1",
     "mongoose": "^4.4.3",
     "nodemon": "^1.8.1",
     "restc": "0.0.3",
     "should": "^8.2.2",
-    "supertest": "^1.2.0",
-    "koa-static": "^4.0.1"
+    "supertest": "^1.2.0"
   }
 }
