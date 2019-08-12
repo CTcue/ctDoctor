@@ -62,7 +62,7 @@ router.get('/', async(ctx) =>
  *     {
  *       "name": "Ibuprofen",
  *       "dose": "120mg",
- *       "packageSize": "10 tablets",
+ *       "packageSize": "10 tablets"
  *     }
  * @apiParam {String} name Name of the Medication.
  * @apiParam {String} dose Dose of the Medication.
@@ -138,7 +138,7 @@ router.get('/:id', async(ctx) => {
  *     {
  *       "name": "Ibuprofen",
  *       "dose": "150mg",
- *       "packageSize": "9 tablets",
+ *       "packageSize": "9 tablets"
  *     }
  * @apiParam {String} name Name of the Medication.
  * @apiParam {String} dose Dose of the Medication.
@@ -153,7 +153,7 @@ router.put('/:id', async(ctx) => {
     ctx.body = medication
   } catch (err) {
     console.error('[Medication] Error during PUT ', err.message);
-    
+
     if (err.name === 'CastError' || err.name === 'NotFoundError') {
       ctx.throw(404)
     }
@@ -176,7 +176,7 @@ router.delete('/:id', async(ctx) => {
     ctx.body = medication
   } catch (err) {
     console.error('[Medication] Error during DELETE', err.message);
-    
+
     if (err.name === 'CastError' || err.name === 'NotFoundError') {
       ctx.throw(404)
     }
