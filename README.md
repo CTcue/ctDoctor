@@ -54,4 +54,6 @@ It exposes the following end-points:
 /api/medication/
 ```
 
+You can browse to an endpoint ( e.g `/api/patient/`) to get an interactive server-side middleware to visualize REST requests.
+
 **NOTE**: Before you can embed and reference entities (i.e. visits in patients and medications in visits), they will have to be created prior to embedding them. Please consult the API documentation for the data models, end-point instructions and available methods.
