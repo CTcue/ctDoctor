@@ -6,8 +6,7 @@ ctDoctor is a RESTful API to complement the CTcue frontend assignment.
 ## Requirements
 
 - NodeJS `>10.16.2`
-- MongoDB `>3.4.9`
-    - If needed, you can adjust the config in `./server/config.js`
+- MongoDB `>3.4.9` - If needed, you can adjust the config in `./server/config.js`
 
 ## Loading the demo data
 
@@ -27,31 +26,31 @@ Install dependencies:
 npm install
 ```
 
-* Start of local server:
+Start local server:
 
 ```
 npm start
 ```
 
-Building and running the production server:
+Build and run the production server:
 
 ```
 npm run prod
 ```
 
-
 ## Back-end API
 
-The API documentation for ctDoctor can be found at [http://localhost:3000](http://localhost:3000).
-
-It exposes the following end-points:
+The API documentation for ctDoctor can be found at [http://localhost:3000](http://localhost:3000). Consult the API documentation for the data models and end-point instructions:
 
 ```
 /api/patient/
+/api/patient/{id}
 /api/visit/
 /api/medication/
+
+... more end-points ...
 ```
 
-You can browse to an endpoint (e.g `/api/patient/`) to get an interactive server-side middleware to visualize REST requests.
+You can browse to an endpoint (e.g [/api/patient/](http://localhost:3000/api/patient)) to get an interactive server-side middleware to visualize and run REST requests.
 
-**NOTE**: Before you can embed and reference entities (i.e. visits in patients and medications in visits), they will have to be created prior to embedding them. Please consult the API documentation for the data models, end-point instructions and available methods.
+**NOTE**: You have to create entities prior to embedding them. For example, to add visits in patients you first have to create a visit.
