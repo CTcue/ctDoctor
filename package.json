@@ -38,7 +38,7 @@
     "koa-logger": "3.2.1",
     "koa-router": "7.4.0",
     "koa-static": "5.0.0",
-    "mongoose": "5.7.5",
+    "mongoose": "5.7.7",
     "nodemon": "1.19.1",
     "restc": "0.4.0",
     "should": "13.2.3",
