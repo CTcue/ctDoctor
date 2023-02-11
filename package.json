@@ -39,7 +39,7 @@
     "koa-router": "8.0.8",
     "koa-static": "5.0.0",
     "mongoose": "5.9.16",
-    "nodemon": "2.0.4",
+    "nodemon": "2.0.20",
     "restc": "0.4.2",
     "should": "13.2.3",
     "supertest": "4.0.2"
